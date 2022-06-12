@@ -96,7 +96,7 @@ footer {
 /* Header Styles */
 
 header {
-
+  padding: 15px 0; /* 15 px to top of page */
 }
 
 header .content-wrapper {
@@ -108,11 +108,17 @@ header figure {
 }
 
 header .header-divider {
-
+  width: 100%;
 }
 
 header nav {
+  width: 60%; /* 220px of 360px */
 
+}
+
+header nav ul {
+  width: 44%; /* 160px of 360px */
+  padding: 20px 0; /* 20px beneath header-divider */
 }
 
 /* ----- Mobile Styles - Homepage -----*/
@@ -121,8 +127,12 @@ header nav {
 
 }
 
-main .content-wrapper {
+.hero-area h1 {
+  padding: 55px 0; /*55px below where hero area starts*/
+}
 
+main .content-wrapper {
+  width: 88%; /* 320 of 360px */
 }
 
 
@@ -132,7 +142,7 @@ aside {
 }
 
 aside .content-wrapper {
-
+  padding: 30px 0; /*30px below top of area*/
 }
 
 aside .form-description {
@@ -144,23 +154,47 @@ aside .form {
 }
 
 .features .content-wrapper {
+  width: 83%; /* 303px of 360px */
+}
 
+.features h1 {
+  padding: 50px 0; /*50px below top of area*/
+}
+
+.features p {
+  padding: 65px 0; /*65px below h1*/
 }
 
 .features-items {
+ 
+}
 
+.features article {
+  width: 55%; /* 196px of 360px */
 }
 
 .fontawesome-icon {
-
+  padding: 63px 0; /*63px below content above*/
+  margin: 140px 0; /* 140px from border */
 }
 
 .features-item-description {
-
+  padding: 40px 0; /*40px below fontawesome-icon*/
+  margin: 80px 0; /*80px from border */
 }
 
 .reviews {
 
+}
+
+.reviews h1 {
+  padding: 55px 0; /*55px below top of review area */
+  margin: 0 165px 0 0;
+}
+
+.reviews h3 {
+  width: 48%; /* 173px of 360px */
+  padding: 22px 0; /*22px below review photo */
 }
 
 .reviews .content-wrapper {
@@ -181,11 +215,13 @@ footer {
 }
 
 footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 
 }
 
 footer .footer-content {
-
+  padding: 50px 0; /* 50px from top of footer area */
 }
 
 footer .contact {
@@ -197,15 +233,18 @@ address {
 }
 
 footer .social {
-
+  padding: 50px 0; /*50px from contact info*/
 }
 
 footer .social-icons {
+}
 
+footer p {
+  padding: 22px 0; /*20px from "social" */
 }
 
 footer .copyright {
-  
+  padding: 55px 0; /*55px from social icons */
 }
 
 /* ==========================================================================
