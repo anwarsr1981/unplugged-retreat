@@ -335,9 +335,85 @@ footer .copyright {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+@media only screen and (min-width: 768px) {
+    /*Tablet styles here */
+      header {
+      }
+
+      header .content-wrapper {
+        justify-content: center;
+      }
+
+      header nav ul {
+        justify-content: center;
+      }
+
+      aside .content-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-flow: flex-flow;
+      }
+
+      main .content-wrapper {
+        width: 83%; /*640px of 768px*/
+      }
+
+      .hero-area h1 {
+        width:70%; /*535px of 768px*/
+      }
+
+      .features article {
+        display: flex;
+        justify-content: center;
+        flex-flow: row-wrap;
+        align-items: center;
+        flex-basis: auto;
+      }
+
+      .reviews article {
+        justify-content: center;
+        display: flex;
+      }
+
+      footer .content-wrapper{
+        width: 65%;
+      }
+
+      footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+  /*faq page*/
+      faq-content {
+        flex-basis: auto;
+      }
+
+  /*about page*/
+      .mission-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+ 
+    .mission-content p {
+        width: 83%; /*640px of 768*/
+    }
+ 
+    .contact-section .content-wrapper h2 {
+        width: 35%;  /*268px of 768px*/
+    }
+ 
+    .contact-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  @media only screen and (min-width: 1200px) {
+    /*Desktop styles here */
+  }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
