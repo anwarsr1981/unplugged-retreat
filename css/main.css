@@ -129,12 +129,12 @@ p {
   
 }
  
-img {
- 
+img { 
+  width: 100%;
 }
  
 figure {
- 
+  margin: 0;
 }
  
 address {
@@ -146,7 +146,12 @@ address {
  
 }
 
-/* ----- Base Header - Footer Styles ----xxcc cdxxxxXXGBı©©©©GG2GWGGWGWWG-*/
+
+ 
+
+
+
+/* ----- Base Header - Footer Styles -----*/
 header,
 footer {
 
@@ -165,7 +170,11 @@ header .content-wrapper {
 }
 
 header figure {
-
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .header-divider {
@@ -185,8 +194,7 @@ header nav ul {
 /* ----- Mobile Styles - Homepage -----*/
 
 .hero-area {
-      background: url('img/jake-melara-30679-unsplash.png') center no-repeat;
-      background-size: cover;
+      
 }
 
 .hero-area h1 {
@@ -194,7 +202,7 @@ header nav ul {
 }
 
 main .content-wrapper {
-  width: 88%; /* 320 of 360px */
+  width: 100%; /* 320 of 360px */
 }
 
 
@@ -289,6 +297,10 @@ aside .form {
 
 .review-content {
 
+}
+
+.reviews figure {
+  width: 80%;
 }
 
 .review article {
@@ -427,6 +439,14 @@ footer .copyright {
       header {
       }
 
+      header figure {
+        width: 28%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+
       header .content-wrapper {
         justify-content: center;
       }
@@ -442,7 +462,7 @@ footer .copyright {
       }
 
       main .content-wrapper {
-        width: 83%; /*640px of 768px*/
+        width: 100%; /*640px of 768px*/
       }
 
       .hero-area h1 {
@@ -461,6 +481,11 @@ footer .copyright {
         justify-content: center;
         display: flex;
       }
+
+      .reviews figure {
+        width: 40%;
+      }
+
 
       footer .content-wrapper{
         width: 65%;
@@ -508,10 +533,19 @@ footer .copyright {
 
   @media only screen and (min-width: 1200px) {
     /*Desktop styles here */
-      .content-wrapper {
-         max-width: 80%; /*960px of 1200px*/
+      
+      main .content-wrapper {
+        width: 100%;
       }
    
+      header figure {
+        width: 23%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+
        /* Hero */
       .hero-area h1 {
           width: 55%; /*670px of 1200px*/
@@ -537,9 +571,16 @@ footer .copyright {
       }
    
       /* Reviews */ 
+
+      .reviews figure {
+        width: 38%;
+      }
       .reviews article div {
           width: 77%; /*925 of 1200px*/
       }
+
+
+
    
   /* ==========================================================================
      About Page
