@@ -197,6 +197,13 @@ header nav ul {
       
 }
 
+.hero-area .content-wrapper{
+  background-image: url('img/unpluggedlogo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .hero-area h1 {
   padding: 55px 0; /*55px below where hero area starts*/
 }
@@ -277,9 +284,11 @@ aside .form {
 }
 
 .reviews {
-  background: #2a423a;
-  color: white;
+  background-image: url ("img/omar-lopez-296944-unsplash.jpg"), center no-repeat;
+  background-size: cover;
 }
+
+
 
 .reviews h1 {
   padding: 55px 0; /*55px below top of review area */
@@ -345,6 +354,25 @@ footer p {
 footer .copyright {
   padding: 55px 0; /*55px from social icons */
 }
+
+/*about page*/
+  .map figure {
+      width: 100%;
+      height: 0; 
+      padding-bottom: 125%; 
+      overflow: hidden;
+      position: relative;
+}
+   
+  .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+}
+
+
 
 /* ==========================================================================
    Helper classes
