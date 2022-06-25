@@ -262,12 +262,12 @@ aside .form {
 }
 
 .features p {
-  padding: 65px 0; /*65px below h1*/
+  padding: 0; /*65px below h1*/
 }
 
 .features i {
   font-size: 3.75em;
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 
 .features-items {
@@ -280,7 +280,7 @@ aside .form {
 
 .fontawesome-icon {
   /*padding: 63px 0; /*63px below content above*/
-  margin: 140px 0; /* 140px from border */
+  margin: 0; /* 140px from border */
 }
 
 .features-item-description {
@@ -319,6 +319,11 @@ aside .form {
 
 .review article {
 
+}
+
+.social i {
+  font-size: 3.75em;
+  margin-bottom: 100 0 0 40;
 }
 
 /* Footer */
