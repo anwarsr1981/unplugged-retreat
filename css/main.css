@@ -265,6 +265,11 @@ aside .form {
   padding: 65px 0; /*65px below h1*/
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features-items {
  
 }
